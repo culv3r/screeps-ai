@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d77e197-4c59-4027-8cce-2e9e5e186f18" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-    </list>
+    <list default="true" id="6d77e197-4c59-4027-8cce-2e9e5e186f18" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -117,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1483854379229</updated>
       <workItem from="1483854384368" duration="1636000" />
-      <workItem from="1483856168174" duration="352000" />
+      <workItem from="1483856168174" duration="440000" />
     </task>
     <task id="LOCAL-00001" summary="Init Repo">
       <created>1483855302310</created>
@@ -151,7 +149,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1988000" />
+    <option name="totallyTimeSpent" value="2076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1928" height="1048" extended-state="6" />
