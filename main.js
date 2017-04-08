@@ -17,20 +17,20 @@ module.exports.loop = function () {
         }
     }
 
-    var tower = Game.getObjectById('5874ec109792a9a405459519');
-    if(tower) {
-        var closestDamagedStructure = tower.pos.findClosestByRange(FIND_STRUCTURES, {
-            filter: (s) => s.hits < s.hitsMax && s.structureType != STRUCTURE_WALL
-        });
-        if(closestDamagedStructure) {
-            tower.repair(closestDamagedStructure);
-        }
+    //var tower = Game.getObjectById('5874ec109792a9a405459519');
+    //if(tower) {
+    //    var closestDamagedStructure = tower.pos.findClosestByRange(FIND_STRUCTURES, {
+    //        filter: (s) => s.hits < s.hitsMax && s.structureType != STRUCTURE_WALL
+    //    });
+    //    if(closestDamagedStructure) {
+    //        tower.repair(closestDamagedStructure);
+    //    }
 
-        var closestHostile = tower.pos.findClosestByRange(FIND_HOSTILE_CREEPS);
-        if(closestHostile) {
-            tower.attack(closestHostile);
-        }
-    }
+    //    var closestHostile = tower.pos.findClosestByRange(FIND_HOSTILE_CREEPS);
+    //    if(closestHostile) {
+    //        tower.attack(closestHostile);
+    //    }
+    //}
 
     // for every creep name in Game.creeps
     for (let name in Game.creeps) {
@@ -58,7 +58,7 @@ module.exports.loop = function () {
     }
 
     // setup some minimum numbers for different roles
-    var minimumNumberOfHarvesters = 5;
+    var minimumNumberOfHarvesters = 3;
     var minimumNumberOfUpgraders = 2;
     var minimumNumberOfBuilders = 1;
     var minimumNumberOfRepairers = 2;
